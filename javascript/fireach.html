@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let food = ["cake" , "Ice Cream" , "Chocolates" , "Breads" , "Buns"]
+
+        // 1st peramiter : items
+        // 2nd peramiter : Index
+        // 3rd peramiter : Wole Array
+        
+        food.forEach(function(item, index, arr){
+            console.log(`Index: ${index} and Item ${item}`)
+            console.log(arr)
+        })
+
+        console.log("..................................................................");
+
+        let printAll = function(item1, index1, arr1){
+            console.log(`Index: ${index1} and Item ${item1}`);
+            console.log(arr1);
+        }
+
+        food.forEach(printAll);
+
+        console.log("..................................................................");
+        //Array iteration using mapping
+
+        function addSome(item) {
+            return `${item} is a food`;
+        }
+
+        let printIn = food.map(addSome)
+        console.log(printIn);
+    </script>
+</body>
+</html>

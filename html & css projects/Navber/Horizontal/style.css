@@ -1,0 +1,81 @@
+:root{
+    --color-t: #ff5c3a;
+    --color-b: #3a9fff;
+    --color-w: #ffffff;
+    --color-b: #000000;
+    --color-g: #00cd6a;
+    --color-gr: #d6d6d6;
+    --color-gray: #545454;
+}
+
+.nav-container{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(224, 243, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hori-nav-1 h2{
+    font-size: 28px;
+}
+
+.hori-nav-1 ul{
+    list-style-type: none;
+    background-color: var(--color-gray);
+    overflow: hidden;
+}
+
+.hori-nav-1 ul li{
+    float: left;
+}
+
+.hori-nav-1 ul li a{
+    color: var(--color-w);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.hori-nav-1 ul li a:hover{
+    background-color: var(--color-b);
+}
+
+/* This is horizontal nav 2 */
+
+.hori-nav-2 h2{
+    font-size: 28px;
+}
+
+.hori-nav-2 ul{
+    list-style-type: none;
+    background-color: var(--color-gray);
+    overflow: hidden;
+}
+
+.hori-nav-2 ul li{
+    float: left;
+}
+
+.hori-nav-2 ul li a{
+    color: var(--color-w);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.hori-nav-2 ul li a:hover:not(#contack){
+    background-color: var(--color-b);
+}
+
+.hori-nav-2 #home{
+    background-color: var(--color-g);
+}
+
+.hori-nav-2 #contack{
+    padding-left: 550px;
+    color: var(--color-g);
+   
+}

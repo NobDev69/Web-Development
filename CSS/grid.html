@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+
+    <style>
+        .container, .container2{
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 5px;
+            margin-top: 10px;
+        }
+
+        .container > div, .container2 > div, .container3 > div{
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        .header{
+            background-color: slateblue;
+            
+
+            /* grid-column-start: 1;
+            grid-column-end: -1; */
+
+            grid-column: 1 / -1;
+        }
+
+        .menu{
+            background-color: tomato;
+            grid-column: 1 / span 2;
+        }
+
+        .content{
+            background-color: salmon;
+            grid-column: 3 / -1;
+        }
+
+        .footer{
+            background-color: black;
+           
+
+            grid-column: 1 / span 12;
+        }
+
+        .header1{
+            background-color: blueviolet;
+
+            grid-column: 1 / -1;
+        }
+
+        .menu1{
+            background-color: salmon;
+
+            grid-column: 1 / 3;
+
+            grid-row: 2 / 6;
+        }
+
+        .content1{
+            background-color: indigo;
+
+            grid-column: 3 / 13;
+        }
+
+        .footer1{
+            background-color: gray;
+
+            grid-column: 3 / -1;
+        }
+
+        /* This is grid areas style */
+        .container3{
+            display: grid;
+            grid-template-rows: repeat(12, 1fr);
+            grid-gap: 5px;
+            grid-template-areas: 
+            ". h h h h h h h h h h ."
+            "m m m c c c c c c c c c"
+            "m m m f f f f f f f f f";
+        }
+
+        .header2{grid-area: h;
+        background-color: tomato;}
+
+        .footer2{grid-area: f;
+        background-color: saddlebrown;}
+
+        .menu2{grid-area: m;
+        background-color: sandybrown;}
+
+        .content2{grid-area: c;
+        background-color: forestgreen;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="menu">Menu</div>
+        <div class="content">Content</div>
+        <div class="footer">Footer</div>
+    </div>
+
+    <h2 style="text-align: center; color: rgb(103, 103, 255); ">This is 2nd layout</h2>
+
+    <div class="container2">
+        <div class="header1">Header</div>
+        <div class="menu1">Menu</div>
+        <div class="content1">Content</div>
+        <div class="footer1">Footer</div>
+    </div>
+
+    <h2 style="text-align: center; color: rgb(103, 103, 255); ">This is 3rd layout</h2>
+
+    <div class="container3">
+        <div class="header2">Header</div>
+        <div class="menu2">Menu</div>
+        <div class="content2">Content</div>
+        <div class="footer2">Footer</div>
+    </div>
+</body>
+</html>

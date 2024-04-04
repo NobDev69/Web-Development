@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .div1{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            margin-right: 20px;
+
+            /* animation-name: afran;
+            animation-duration: 3s; */
+            animation: afran 10s 10;
+            animation-delay: 1s;
+
+            -webkit-animation: afran 10s 10;
+            -webkit-animation-delay: 1s;
+        }
+
+        @keyframes afran{
+            0%{background-color: red;}
+            30%{background-color: tomato;}
+            50%{background-color: salmon; width: 400px; height: 400px;}
+            70%{background-color: indigo;}
+            90%{background-color: blue;}
+            100%{background-color: yellow;}
+        }
+
+        @-webkit-keyframes afran{
+            0%{background-color: red;}
+            30%{background-color: tomato;}
+            50%{background-color: salmon; width: 400px; height: 400px;}
+            70%{background-color: indigo;}
+            90%{background-color: blue;}
+            100%{background-color: yellow;}
+        }
+
+        
+
+        .div2{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background-color: green;
+
+            animation: araf 20s 20;
+            animation-delay: 3s;
+
+            -webkit-animation: araf 20s 20;
+            -webkit-animation-delay: 3s;
+        }
+
+        @keyframes araf{
+            0%{background-color: green;}
+            10%{background-color: blue;}
+            20%{background-color: indigo;}
+            30%{background-color: chocolate;}
+            40%{background-color: firebrick;}
+            50%{background-color: salmon;width: 600px; height: 600px;}
+            60%{background-color: red;}
+            70%{background-color: brown;}
+            90%{background-color: olivedrab; width: 800px;}
+            90%{background-color: pink; height: 800px; border-radius: 100%;}
+            100%{background-color: yellow;}
+        }
+
+        @-webkit-keyframes araf{
+            0%{background-color: green;}
+            10%{background-color: blue;}
+            20%{background-color: indigo;}
+            30%{background-color: chocolate;}
+            40%{background-color: firebrick;}
+            50%{background-color: salmon;width: 600px; height: 600px;}
+            60%{background-color: red;}
+            70%{background-color: brown;}
+            90%{background-color: olivedrab; width: 800px;}
+            90%{background-color: pink; height: 800px; border-radius: 100%;}
+            100%{background-color: yellow;}
+        }
+    </style>
+
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>

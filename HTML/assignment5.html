@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        #d1{
+            background-color: rgb(42, 117, 255);
+            width: 100%;
+            height: 400px;
+        }
+        #d2{
+            background-color: aqua;
+            width: 100%;
+            height: 400px;
+        }
+        .d1{
+            width: 30%;
+            float: left;
+            background-color: black;
+            height: 400px;
+        }
+        .d2{
+            width: 70%;
+            float: right;
+            background-color: white;
+            height: 400px;
+        }
+        #d3{
+            background-color: rgb(42, 117, 255);
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        Header
+    </div>
+    <div id="d2">
+        <div class="d1">main</div>
+        <div class="d2">main</div>
+    </div>
+    <div id="d3">Footer</div>
+</body>
+</html>

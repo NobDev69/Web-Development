@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: row wrap; */
+    padding: 10% 10% 10% 10%;
+    max-width: 100%;
+    max-height: 100vh;
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-attachment:  contain;
+}
+
+.half-header h1{
+    font-size: 46px;
+}
+
+.half-header p{
+    font-size: 14px;
+    padding: 20px 25px 20px 0;
+}
+
+.half-header .btn{
+    border: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.header img{
+    width: 450px;
+    margin-left: 50px;
+}
+
+/* about section */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    max-width: 100%;
+    background: url(./images/biography-bg.png) no-repeat contain;
+    padding: 0 10% 10% 10%;
+}
+
+.about img{
+    width: 100%;
+    margin-right: 10%;
+}
+
+.about p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about .btn{
+    border: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+/* Project Section */
+.work{
+    padding: 0 10% 10% 10%;
+    max-height: 100vh;
+    max-width: 100%;
+    background-image: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: contain;
+}
+
+.work h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 38px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img{
+    max-width: 25%;
+    margin: 40px;
+}
+
+.form{
+    text-align: center;
+    max-width: 100%;
+    max-height: 100vh;
+    background-image: url(./images/latest-work-bg.png);
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    margin: 0 10% 10% 10%;
+}
+
+.form h1{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.form h5{
+    font-size: 18px;
+}
+
+.form h6{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.form q{
+    font-size: 16px;
+    text-align: center;
+}
+
+.mail{
+    margin: 50px 100px 0 100px;
+    padding: 30px 80px;
+    background-color: tomato;
+    border-radius: 20px;
+    color: white;
+}
+
+.mail p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.last-tag{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid style</title>
+
+    <style>
+        #grid-container{
+            display: grid;
+            grid-template-columns: 300px 400px auto;
+            /* grid-template-rows: 200px 100px;
+            grid-gap: 20px 40px;
+            background-color: aquamarine; */
+            justify-content: center;
+        }
+
+        #grid-container > div{
+            border: 1px solid black;
+            background-color: salmon;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .item1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            grid-column: 1 / 3;
+            grid-row: 1/3;
+        }
+
+        /* That is 2nd grid layout */
+        .grid-layout{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            margin-top: 100px;
+        }
+        
+        .grid-layout > div{
+            background-color: black;
+            color: white;
+            border: 1px solid salmon;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .item1{
+            grid-column: 1 / 7;
+        }
+
+        .item2{
+            grid-column: 1 / 7;
+        }
+
+        .item3{
+            grid-column: 1 / 2;
+            grid-row: 4 / 7;
+        }
+
+        .item4{
+            grid-column: 2 / 6;
+        }
+
+        .item5{
+            grid-column: 6 / 7;
+        }
+
+        .item6{
+            grid-column: 2 / 7;
+        }
+
+        /* Thsi is grid-layout 2 */
+        .grid-layout2{
+            display: grid;
+            margin-top: 100px;
+            grid-template-areas: 
+            'header header header header header header header'
+            'nav nav nav nav nav nav nav'
+            'menu main main main main aside aside'
+            'menu footer footer footer footer footer footer'
+            ;
+        }
+
+        .grid-layout2 > div{
+            background-color: tomato;
+            color: white;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .item7{grid-area: header;}
+        .item8{grid-area: nav;}
+        .item9{grid-area: menu;}
+        .item10{grid-area: main;}
+        .item11{grid-area: aside;}
+        .item12{grid-area: footer;}
+    </style>
+
+</head>
+<body>
+    <div id="grid-container">
+        <div class="item1">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    <div class="grid-layout">
+        <div class="item1">Header</div>
+        <div class="item2">Navber</div>
+        <div class="item3">Menu</div>
+        <div class="item4">Main</div>
+        <div class="item5">Aside</div>
+        <div class="item6">Footer</div>
+    </div>
+
+    <div class="grid-layout2">
+        <div class="item7">HeaderDer blieb so der wo immer. Nebelferne du sanft nun in gartens bester sollst und, schon wort wilde ergötzt rast verschwiegen mit schmilzt der. Zuletzt du der der gehofft klingt du. Denkst fort zurück an zürnen heut, brust schaust heut und ort. Denkst sanken mit du vaterland nicht wo gut.</div>
+        <div class="item8">Navber</div>
+        <div class="item9">MenuA hélas la m'appelle mal  pleure. Soeurs la le.Love to the was hight wrong hill far dote, a fellow the or thy to but, thy had would me feere did his not pangs. Aisle from him aye the would. Felt soils could little sad, noontide none he to not nor his in, aye him agen where below alas.</div>
+        <div class="item10">Main</div>
+        <div class="item11">Aside</div>
+        <div class="item12">FooterBosoms into name wrought yore ungainly seat chamber nevermore nevermore. And that silken beast clasp the then lining sad i, soul on more nameless my i a nothing burden. Meaninglittle nevermore eyes in implore clasp plainly. Not the many with and sent croaking if raven. Leave then by moment lamplight bleak, fantastic front and dream the, soul ungainly tapping bust ebony an of the agreeing, is lore this from streaming stepped. Nevermore whispered at quoth reply.</div>
+    </div>
+</body>
+</html>

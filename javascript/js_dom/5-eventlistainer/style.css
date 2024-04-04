@@ -1,0 +1,12 @@
+/* .ss{
+    visibility: hidden;
+} */
+
+
+.my-style{
+    visibility: visible;
+    color: rebeccapurple;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+

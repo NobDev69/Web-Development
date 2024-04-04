@@ -1,0 +1,9 @@
+.pera{
+    margin: 150px;
+    width: 500px;
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    border: 20px solid green;
+    outline: 25px solid rebeccapurple;
+    outline-offset: 5px;
+}

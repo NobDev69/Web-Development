@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible table</title>
+    <!-- <style>
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            height: 400px;
+            width: 400px;
+        }
+        th,td{
+            text-align: center;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 28px;
+            color: blue;
+            margin-left: 125px;
+        }
+        caption{
+            font-size: 22px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-bottom: 10px;
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+    <h2>HTML Table</h2>
+    </header>
+    <main>
+    <table border="1px" width="400px" height="200px" style="border-collapse: collapse; text-align: center;">
+        <caption>Student Data</caption>
+        <colgroup>
+        
+            <col span="3" style="background-color: burlywood;"/>
+
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Gpa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">101</th>
+                <td>Shabbir</td>
+                <td>4.90</td>
+            </tr>
+            <tr>
+                <th scope="row">102</th>
+                <td rowspan="2">Abrar</td>
+                <td>4.00</td>
+            </tr>
+            <tr>
+                <th scope="row">103</th>
+                <td>4.50</td>
+            </tr>
+            <tr>
+                <th scope="row">104</th>
+                <td>Arefin</td>
+                <td rowspan="2">4.90</td>
+            </tr>
+            <tr>
+                <th scope="row">105</th>
+                <td>Afran</td>
+            </tr>
+        </tbody>
+    </table>
+    </main>
+</body>
+</html>

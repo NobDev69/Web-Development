@@ -1,0 +1,45 @@
+.static{
+    border: 2px solid salmon;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: static;
+    left: 20px;
+}                           /* It was defult position all position style */
+
+.sticky{
+    border: 2px solid red;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: sticky;
+    background-color: rgb(255, 7, 81);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 0;
+}
+
+.fixed{
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: fixed;
+    left: 50px;
+    top: 180px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.relative{
+    border: 2px solid blue;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50px;
+}
+
+.absolute{
+    border: 2px solid green;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+

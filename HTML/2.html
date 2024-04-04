@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index 2</title>
+<style>
+    table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2px 4px;
+    }
+</style>
+
+</head>
+
+<body>
+    <h1>Formatting</h1>
+    <h3>Math</h3>
+    <p>(a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup></p>
+    <h3>Water</h3>
+    <p>H<sub>2</sub>O</p>
+
+    <p>This is some Normal text.</p>
+    <p><small>This is some smaller text.</small></p>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <q> the share or proportion assigned to each in a division or to each member of a body</q>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization,
+        WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and
+        deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <!-- This is comment of address -->
+    <address>
+        Written by John Doe.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+        <!-- This is link -->
+        <a href="https://www.facebook.com/" target="_blank">Go to Faceboook</a>
+        <hr>
+        <h3>This is Table</h3>
+        <hr>
+        <table>
+            <caption>Table Box</caption>
+            <tr>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Gpa</th>
+        </tr>
+        <tr>
+            <td>Shabbir</td>
+            <td>202020</td>
+            <td>4.95</td>
+        </tr>
+        <tr>
+            <td>Afran</td>
+            <td>202021</td>
+            <td>4.50</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Abrar</td>
+            <td>202022</td>
+            <td>5.00</td>
+        </tr>
+        <tr>
+            <td colspan="2">202022</td>
+        </tr>
+        <tr>
+            <td>202022</td>
+            <td>5.00</td>
+        </tr>
+        </table>
+        <!-- list type -->
+        <ul>
+            <li>Shabbir</li>
+            <li>Abrar</li>
+            <li>kashem</li>
+        </ul>
+        <ol>
+            <li>Shabbir</li>
+            <li>Abrar</li>
+            <li>kashem</li>
+        </ol>
+        <hr>
+        <p>Javascript</p>
+        <hr>
+        <p id="ptag">This is Peragraph</p>
+        <button type="button" onclick="myfunction()">Button</button>
+        <script>
+            function myfunction(){
+                document.getElementById("ptag").innerHTML="This is from Javascript";
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    background-color: tomato;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container > div{
+    padding: 20px;
+    width: 50px;
+    background-color: blanchedalmond;
+    font-size: 22px;
+    margin: 10px;
+    border-radius: 10px;
+}

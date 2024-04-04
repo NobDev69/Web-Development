@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marks Result</title>
+  </head>
+  <body>
+    <script>
+      var mark = prompt('Enter your Value :');
+
+      if (mark >= 80 && mark <= 100) document.write('A+');
+      else if (mark >= 70) document.write('A');
+      else if (mark >= 60) document.write('A-');
+      else if (mark >= 50) document.write('B');
+      else if (mark >= 40) document.write('C');
+      else if (mark >= 33) document.write('D');
+      else if (mark > 100 && mark < 0) document.write('Invalid Marks');
+      else document.write('Fail');
+    </script>
+  </body>
+</html>

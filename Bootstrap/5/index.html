@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Bootstrap site | Web development Site</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .image{
+            max-width: 198px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header{
+            height: 80vh;
+            background-color: #F0FFF0;
+        }
+
+        .hero-img{
+            width: 554px;
+        }
+        .book-img{
+            max-width: 66px;
+        }
+
+        .shadow{
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .media-img{
+            width: 120px;
+        }
+
+        .footer{
+            height: 369px;
+            background-color: #282531;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <img src="./images/logo.png" class="image" alt="">
+                  <!-- <a class="navbar-brand" href="#">E-School</a> -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                      <a class="nav-link active" aria-current="page" href="#">Books</a>
+                      <a class="nav-link ms-4" href="#">Courses</a>
+                      <a class="nav-link ms-4" href="#">Others</a>
+                      <a class="nav-link ms-4">Blog</a>
+                      <button class="btn btn-success rounded-pill ms-5">Sign up</button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- navbar ends -->
+                
+              <div class="row ps-5">
+                <div class="col-lg-5 pt-5 ps-4">
+                    <p class="text-danger">Are you ready to Learn?</p>
+                    <h1 class="fs-1 fw-bold pe-5">Learn With fun on <span class="text-success">any schedule</span></h1>
+                    <p class="pe-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                    <button class="btn btn-success rounded-pill">Get Started</button>
+                </div>
+                <div class="col-lg-7 mt-5">
+                    <img src="./images/photos/Illustration.png" class="hero-img img-fluid pe-5 pt-4 float-end" alt="">
+                </div>
+              </div>
+        </header>
+        <!-- header section end -->
+
+        <main class="container">
+            <section>
+                <div class="row pt-5">
+                    <div class="col-lg-3 px-2 py-5">
+                        <img src="./images/icon/book.png" class="book-img mx-auto d-block" alt="">
+                        <h4 class="pt-3 text-center">1500+ Topic</h4>
+                        <p class="text-center">Learn Anythings</p>
+                    </div>
+
+                    <div class="col-lg-3 px-2 py-5 shadow">
+                        <img src="./images/icon/Student.png" class="book-img mx-auto d-block" alt="">
+                        <h4 class="pt-3 text-center">1800+ Students</h4>
+                        <p class="text-center">Learn Anythings</p>
+                    </div>
+
+                    <div class="col-lg-3 px-2 py-5">
+                        <img src="./images/icon/Test.png" class="book-img mx-auto d-block" alt="">
+                        <h4 class="pt-3 text-center">9K+ Test Token</h4>
+                        <p class="text-center">Learn Anythings</p>
+                    </div>
+
+                    <div class="col-lg-3 px-2 py-5">
+                        <img src="./images/icon/Students.png" class="book-img mx-auto d-block" alt="">
+                        <h4 class="pt-3 text-center">2000+ Student</h4>
+                        <p class="text-center">Learn Anythings</p>
+                    </div>
+                </div>
+            </section>
+            <!-- service section ends -->
+
+
+            <section>
+                <div class="py-5">
+                    <h1 class="text-center fw-bolder">Online Courses</h1>
+                </div>
+
+                <div class="card-section">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="card p-2">
+
+                            <img src="./images/photos/Morder pyschology.png" alt="">
+
+                            <div class="card-body">
+                                <div class="card-title"><h2>Modern Psychology</h2></div>
+                                <div class="card-subtitle">
+                                    <p>Designation</p>
+                                </div>
+                                <div class="card-button"><button class="btn btn-success rounded-pill">Buy Course</button></div>
+                            <div class="card-subtitle pt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cake2" viewBox="0 0 16 16">
+                                    <path d="m3.494.013-.595.79A.747.747 0 0 0 3 1.814v2.683c-.149.034-.293.07-.432.107-.702.187-1.305.418-1.745.696C.408 5.56 0 5.954 0 6.5v7c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 15.773 5.898 16 8 16c2.102 0 4.022-.227 5.432-.603.701-.187 1.305-.418 1.745-.696.415-.261.823-.655.823-1.201v-7c0-.546-.408-.94-.823-1.201-.44-.278-1.043-.51-1.745-.696A12.418 12.418 0 0 0 13 4.496v-2.69a.747.747 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 12 1.813V4.3a22.03 22.03 0 0 0-2-.23V1.806a.747.747 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v2.204a28.708 28.708 0 0 0-2 0V1.806A.747.747 0 0 0 7.092.802l-.598-.79-.595.792A.747.747 0 0 0 6 1.813V4.07c-.71.05-1.383.129-2 .23V1.806A.747.747 0 0 0 4.092.802l-.598-.79Zm-.668 5.556L3 5.524v.967c.311.074.646.141 1 .201V5.315a21.05 21.05 0 0 1 2-.242v1.855c.325.024.659.042 1 .054V5.018a27.685 27.685 0 0 1 2 0v1.964c.341-.012.675-.03 1-.054V5.073c.72.054 1.393.137 2 .242v1.377c.354-.06.689-.127 1-.201v-.967l.175.045c.655.175 1.15.374 1.469.575.344.217.356.35.356.356 0 .006-.012.139-.356.356-.319.2-.814.4-1.47.575C11.87 7.78 10.041 8 8 8c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 6.639 1 6.506 1 6.5c0-.006.012-.139.356-.356.319-.2.814-.4 1.47-.575ZM15 7.806v1.027l-.68.907a.938.938 0 0 1-1.17.276 1.938 1.938 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277L1 8.82V7.806c.42.232.956.428 1.568.591C3.978 8.773 5.898 9 8 9c2.102 0 4.022-.227 5.432-.603.612-.163 1.149-.36 1.568-.591Zm0 2.679V13.5c0 .006-.012.139-.356.355-.319.202-.814.401-1.47.576C11.87 14.78 10.041 15 8 15c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575-.344-.217-.356-.35-.356-.356v-3.02a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.938.938 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426Z"/>
+                                  </svg>
+                                  <p class="d-inline ps-1">Start 20 April, 2021</p>
+                            </div>
+
+                            <div class="card-ssubtitle d-inline">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                                  </svg>
+                                  <p class="d-inline ps-1">60 seats</p>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4">
+                        <div class="card p-2">
+
+                            <img src="./images/photos/Morder psyc.png" alt="">
+
+                            <div class="card-body">
+                                <div class="card-title"><h2>Modern Psychology</h2></div>
+                                <div class="card-subtitle">
+                                    <p>Designation</p>
+                                </div>
+                                <div class="card-button"><button class="btn btn-success rounded-pill">Buy Course</button></div>
+                            <div class="card-subtitle pt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cake2" viewBox="0 0 16 16">
+                                    <path d="m3.494.013-.595.79A.747.747 0 0 0 3 1.814v2.683c-.149.034-.293.07-.432.107-.702.187-1.305.418-1.745.696C.408 5.56 0 5.954 0 6.5v7c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 15.773 5.898 16 8 16c2.102 0 4.022-.227 5.432-.603.701-.187 1.305-.418 1.745-.696.415-.261.823-.655.823-1.201v-7c0-.546-.408-.94-.823-1.201-.44-.278-1.043-.51-1.745-.696A12.418 12.418 0 0 0 13 4.496v-2.69a.747.747 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 12 1.813V4.3a22.03 22.03 0 0 0-2-.23V1.806a.747.747 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v2.204a28.708 28.708 0 0 0-2 0V1.806A.747.747 0 0 0 7.092.802l-.598-.79-.595.792A.747.747 0 0 0 6 1.813V4.07c-.71.05-1.383.129-2 .23V1.806A.747.747 0 0 0 4.092.802l-.598-.79Zm-.668 5.556L3 5.524v.967c.311.074.646.141 1 .201V5.315a21.05 21.05 0 0 1 2-.242v1.855c.325.024.659.042 1 .054V5.018a27.685 27.685 0 0 1 2 0v1.964c.341-.012.675-.03 1-.054V5.073c.72.054 1.393.137 2 .242v1.377c.354-.06.689-.127 1-.201v-.967l.175.045c.655.175 1.15.374 1.469.575.344.217.356.35.356.356 0 .006-.012.139-.356.356-.319.2-.814.4-1.47.575C11.87 7.78 10.041 8 8 8c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 6.639 1 6.506 1 6.5c0-.006.012-.139.356-.356.319-.2.814-.4 1.47-.575ZM15 7.806v1.027l-.68.907a.938.938 0 0 1-1.17.276 1.938 1.938 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277L1 8.82V7.806c.42.232.956.428 1.568.591C3.978 8.773 5.898 9 8 9c2.102 0 4.022-.227 5.432-.603.612-.163 1.149-.36 1.568-.591Zm0 2.679V13.5c0 .006-.012.139-.356.355-.319.202-.814.401-1.47.576C11.87 14.78 10.041 15 8 15c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575-.344-.217-.356-.35-.356-.356v-3.02a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.938.938 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426Z"/>
+                                  </svg>
+                                  <p class="d-inline ps-1">Start 20 April, 2021</p>
+                            </div>
+
+                            <div class="card-ssubtitle d-inline">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                                  </svg>
+                                  <p class="d-inline ps-1">60 seats</p>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4">
+                        <div class="card p-2">
+
+                            <img src="./images/photos/Morder pychons.png" alt="">
+
+                            <div class="card-body">
+                                <div class="card-title"><h2>Modern Psychology</h2></div>
+                                <div class="card-subtitle">
+                                    <p>Designation</p>
+                                </div>
+                                <div class="card-button"><button class="btn btn-success rounded-pill">Buy Course</button></div>
+                            <div class="card-subtitle pt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cake2" viewBox="0 0 16 16">
+                                    <path d="m3.494.013-.595.79A.747.747 0 0 0 3 1.814v2.683c-.149.034-.293.07-.432.107-.702.187-1.305.418-1.745.696C.408 5.56 0 5.954 0 6.5v7c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 15.773 5.898 16 8 16c2.102 0 4.022-.227 5.432-.603.701-.187 1.305-.418 1.745-.696.415-.261.823-.655.823-1.201v-7c0-.546-.408-.94-.823-1.201-.44-.278-1.043-.51-1.745-.696A12.418 12.418 0 0 0 13 4.496v-2.69a.747.747 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 12 1.813V4.3a22.03 22.03 0 0 0-2-.23V1.806a.747.747 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v2.204a28.708 28.708 0 0 0-2 0V1.806A.747.747 0 0 0 7.092.802l-.598-.79-.595.792A.747.747 0 0 0 6 1.813V4.07c-.71.05-1.383.129-2 .23V1.806A.747.747 0 0 0 4.092.802l-.598-.79Zm-.668 5.556L3 5.524v.967c.311.074.646.141 1 .201V5.315a21.05 21.05 0 0 1 2-.242v1.855c.325.024.659.042 1 .054V5.018a27.685 27.685 0 0 1 2 0v1.964c.341-.012.675-.03 1-.054V5.073c.72.054 1.393.137 2 .242v1.377c.354-.06.689-.127 1-.201v-.967l.175.045c.655.175 1.15.374 1.469.575.344.217.356.35.356.356 0 .006-.012.139-.356.356-.319.2-.814.4-1.47.575C11.87 7.78 10.041 8 8 8c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 6.639 1 6.506 1 6.5c0-.006.012-.139.356-.356.319-.2.814-.4 1.47-.575ZM15 7.806v1.027l-.68.907a.938.938 0 0 1-1.17.276 1.938 1.938 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277L1 8.82V7.806c.42.232.956.428 1.568.591C3.978 8.773 5.898 9 8 9c2.102 0 4.022-.227 5.432-.603.612-.163 1.149-.36 1.568-.591Zm0 2.679V13.5c0 .006-.012.139-.356.355-.319.202-.814.401-1.47.576C11.87 14.78 10.041 15 8 15c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575-.344-.217-.356-.35-.356-.356v-3.02a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.938.938 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426Z"/>
+                                  </svg>
+                                  <p class="d-inline ps-1">Start 20 April, 2021</p>
+                            </div>
+
+                            <div class="card-ssubtitle d-inline">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                                  </svg>
+                                  <p class="d-inline ps-1">60 seats</p>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <!-- card section ends -->
+
+            <section class="media m-5">
+                <div class="d-flex justify-content-center align-items-center px-5">
+                    <div class="flex-shrink-0">
+                      <img src="./images/photos/Man.png" class="rounded-circle media-img" alt="img not found">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat ipsa autem id, debitis at harum inventore consequuntur, atque ea quasi dignissimos magni. Officia, cupiditate rem error ipsa eum reprehenderit eligendi placeat optio nostrum soluta esse, magni molestiae quo explicabo aliquam dolorem libero accusamus ipsum at? Dolores consectetur corrupti quaerat.
+                    </div>
+                  </div>
+            </section>
+        </main>
+        <!-- main section ends -->
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-5 p-5">
+                    <p class="text-white">Millions of people of all ages and from around the world are improving their lives with us</p>
+                </div>
+                <div class="col-2 p-5">
+                    <p class="text-white fw-bolder">Course</p>
+                    <p class="text-white">Graphic</p>
+                    <p class="text-white">Web design</p>
+                    <p class="text-white">Business </p>
+                    <p class="text-white">Codding</p>
+                    <p class="text-white">Marketing</p>
+                    <p class="text-white">Ingineering</p>
+                </div>
+                <div class="col-2 p-5">
+                    <p class="text-white fw-bolder">Terms</p>
+                    <p class="text-white">Graphic</p>
+                    <p class="text-white">Web design</p>
+                    <p class="text-white">Business </p>
+                    <p class="text-white">Codding</p>
+                    <p class="text-white">Marketing</p>
+                    <p class="text-white">Ingineering</p>
+                </div>
+                <div class="col-3 p-5">
+                    <p class="text-white fw-bolder">Usefull link</p>
+                    <p class="text-white">Graphic</p>
+                    <p class="text-white">Web design</p>
+                    <p class="text-white">Business </p>
+                    <p class="text-white">Codding</p>
+                    <p class="text-white">Marketing</p>
+                    <p class="text-white">Ingineering</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

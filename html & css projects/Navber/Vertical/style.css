@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-t: #ff5c3a;
+    --color-b: #3a9fff;
+    --color-w: #ffffff;
+    --color-b: #000000;
+    --color-g: #00cd6a;
+    --color-gr: #d6d6d6;
+    --color-gray: #545454;
+}
+
+.nav-container{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(224, 243, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.vertical-nav-1 h3{
+    font-size: 32px;
+    color: var(--color-t);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.vertical-nav-1 ul{
+    list-style-type: none;
+    background-color: var(--color-gr);
+    width: 250px;
+    /* text-align: left; */
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vertical-nav-1 ul li a{
+    text-decoration: none;
+    display: block;
+    color: var(--color-b);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+.vertical-nav-1 ul li a:hover{
+    color: var(--color-w);
+    background-color: var(--color-gray);
+}
+
+/* this is vartical nav ber 2 */
+
+.vertical-nav-2 h3{
+    font-size: 32px;
+    color: var(--color-t);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.vertical-nav-2 ul{
+    list-style-type: none;
+    background-color: var(--color-gr);
+    width: 250px;
+    /* text-align: left; */
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vertical-nav-2 ul li a{
+    text-decoration: none;
+    display: block;
+    color: var(--color-b);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+.vertical-nav-2 ul li a:hover{
+    color: var(--color-w);
+    background-color: var(--color-gray);
+}
+
+.vertical-nav-2 #home{
+    background-color: var(--color-g);
+}

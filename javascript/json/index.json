@@ -1,0 +1,73 @@
+{
+  "Student_Data": [
+    {
+      "name": "Shabbir",
+      "last_Name": "Hossan",
+      "age": 22,
+      "Clg": "Dpc",
+      "year": "2022-2025",
+      "HSC": "4.50",
+      "SSC": "4.36",
+      "total": "8.86",
+      "subject": ["Accounting", "Managemant", "Finance", "Marketing"],
+      "language": ["Bangla", "English"],
+      "friends": [
+        {
+          "name": "Afran",
+          "age": 21
+        },
+        {
+          "name": "Abrar",
+          "age": 19
+        },
+        {
+          "name": "Zayan",
+          "age": 20
+        },
+        {
+          "name": "Arefin",
+          "age": 25
+        },
+        {
+          "name": "Aryan",
+          "age": 22
+        }
+      ]
+    },
+
+    {
+      "name": "Shabbir",
+      "last_Name": "Hossan",
+      "age": 22,
+      "Clg": "Dpc",
+      "year": "2022-2025",
+      "HSC": "4.50",
+      "SSC": "4.36",
+      "total": "8.86",
+      "subject": ["Accounting", "Managemant", "Finance", "Marketing"],
+      "language": ["Bangla", "English"],
+      "friends": [
+        {
+          "name": "Afran",
+          "age": 21
+        },
+        {
+          "name": "Abrar",
+          "age": 19
+        },
+        {
+          "name": "Zayan",
+          "age": 20
+        },
+        {
+          "name": "Arefin",
+          "age": 25
+        },
+        {
+          "name": "Aryan",
+          "age": 22
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    .header{
+        flex-basis: 50%;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header img{
+        max-width: 100%;
+        padding: 50px 0 50px 0;
+    }
+
+    .about{
+       flex-flow: row wrap;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+
+    .about img{
+      margin-top: 100%;
+      width: 100%;
+      margin-bottom: 50px;
+     }
+
+     .work h1{
+        margin-top: 950px;
+     }
+
+     .work .projects{
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .projects img{
+        max-width: 100%;
+     }
+}

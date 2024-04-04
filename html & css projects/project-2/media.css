@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    .navigation{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    .navigation ul li{
+        flex-direction: column;
+        display: flex;
+    }
+}
