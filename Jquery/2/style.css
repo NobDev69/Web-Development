@@ -1,0 +1,8 @@
+.pera {
+  width: 35%;
+  background-color: salmon;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  /* cursor: progress; */
+}

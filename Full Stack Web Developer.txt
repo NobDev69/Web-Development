@@ -1,0 +1,15 @@
+Html5✔
+Css3✔
+Bootstrap✔/Tailwind/Matarial Ui
+JavaScript✔
+Jquery✔
+Sass
+TypeScript
+Git/Github✔
+React.Js[50%]
+Redux
+Node.js
+Express.js
+EJS
+MongoDB
+SQL/Docker
