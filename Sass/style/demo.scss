@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$header-bg: salmon;
+$footer-bg: #000;
+$footer-clr: #fff;
+$main-bg: tomato;
+
+header {
+  background-color: $header-bg;
+  padding: 20px;
+}
+
+main {
+  background-color: $main-bg;
+  padding: 20px;
+  color: #fff;
+}
+
+footer {
+  background-color: $footer-bg;
+  color: $footer-clr;
+  padding: 20px;
+  text-align: center;
+}
